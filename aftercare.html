@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>After Care | The Tattoo Culture - Luxury Tattoo Studio</title>
+    <meta name="description"
+        content="Professional tattoo aftercare instructions to ensure your art heals perfectly and lasts a lifetime.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        .aftercare-hero {
+            padding: 120px 5% 60px;
+            text-align: center;
+        }
+
+        .aftercare-title {
+            font-family: var(--font-display);
+            font-size: clamp(3rem, 10vw, 6rem);
+            color: #000;
+            background: none;
+            -webkit-text-fill-color: initial;
+            text-transform: uppercase;
+            margin-bottom: 1rem;
+            display: inline-block;
+        }
+
+        .aftercare-subtitle {
+            font-size: 1.2rem;
+            color: #333004;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .aftercare-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            padding: 4rem 5%;
+        }
+
+        .care-step {
+            background: var(--color-white);
+            border: 1px solid rgba(51, 48, 4, 0.1);
+            padding: 2.5rem;
+            border-radius: var(--radius-lg);
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .care-step:hover {
+            border-color: var(--color-gold);
+            transform: translateY(-5px);
+            background: #fff;
+            box-shadow: var(--shadow-md);
+        }
+
+        .step-number {
+            font-family: var(--font-display);
+            font-size: 3rem;
+            color: rgba(51, 48, 4, 0.08);
+            /* Dark olive with very low opacity */
+            position: absolute;
+            top: 1rem;
+            right: 1.5rem;
+        }
+
+        .care-step h3 {
+            color: #000 !important;
+            display: inline-block;
+            font-family: var(--font-display);
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            letter-spacing: 0.05em;
+            background: none;
+            -webkit-text-fill-color: initial;
+        }
+
+        .care-step p {
+            color: #000 !important;
+            line-height: 1.6;
+            font-weight: 400;
+        }
+
+        .warning-section {
+            background: #333004;
+            padding: 6rem 5%;
+            text-align: center;
+            border-top: 1px solid rgba(255, 216, 61, 0.2);
+            border-bottom: 1px solid rgba(255, 216, 61, 0.2);
+        }
+
+        .warning-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        .warning-text {
+            font-family: var(--font-display);
+            font-size: 2rem;
+            background: var(--gradient-motion);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            display: inline-block;
+            line-height: 1.4;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        @media (max-width: 768px) {
+            .warning-text {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+
+<body class="aftercare-page">
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+    </div>
+    <div class="cursor-trails" id="cursor-trails"></div>
+    <!-- Custom Cursor -->
+    <div class="cursor" id="cursor">
+        <div class="cursor-dot"></div>
+        <div class="cursor-ring"></div>
+    </div>
+    <div class="cursor-trails" id="cursor-trails"></div>
+    <!-- Ambient Glow Effects -->
+    <div class="ambient-glow glow-1"></div>
+    <div class="ambient-glow glow-2"></div>
+
+    <!-- Film Grain Overlay -->
+    <div class="grain-overlay"></div>
+
+    <!-- Navigation -->
+    <div id="navbar-placeholder"></div>
+
+    <!-- Hero Section -->
+    <section class="aftercare-hero section-cream">
+        <div class="aftercare-hero-content">
+            <a href="index.html" class="back-link">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M19 12H5M12 19l-7-7 7-7" />
+                </svg>
+                <span>Back to Home</span>
+            </a>
+            <span class="section-label">Healing Guide</span>
+            <h1 class="aftercare-title">Tattoo After Care</h1>
+            <p class="aftercare-subtitle">Preserve your art. Follow these steps for perfect healing.</p>
+        </div>
+    </section>
+
+    <!-- Instructions Grid -->
+    <section class="aftercare-content section-olive">
+        <div class="aftercare-grid">
+            <div class="care-step">
+                <span class="step-number">01</span>
+                <h3>Immediate Care</h3>
+                <p>Remove the bandage within 1-3 hours of your session completion.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">02</span>
+                <h3>Gentle Cleansing</h3>
+                <p>Wash your tattoo with antibacterial soap. Recommended: <strong>Dove</strong> or <strong>JOHNSON'S
+                        baby</strong>.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">03</span>
+                <h3>Apply Ointment</h3>
+                <p>After 15 minutes of washing, apply a very small amount of ointment. Recommended: <strong>SS
+                        Suffa</strong> or <strong>Silverex Cream</strong>.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">04</span>
+                <h3>Daily Routine</h3>
+                <p>Repeat steps 2 & 3 several times a day for the first 3 days.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">05</span>
+                <h3>Initial Transition</h3>
+                <p>After the first 3-4 days, switch from ointment to a moisturizing lotion.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">06</span>
+                <h3>Continuous Hydration</h3>
+                <p>Moisturize with <strong>Moiste</strong> several times daily for the next 2-3 weeks.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">07</span>
+                <h3>Strict Avoidance</h3>
+                <p>Avoid direct sun exposure on your new tattoo. Strictly NO gym activities or swimming.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">08</span>
+                <h3>Long-term Preservation</h3>
+                <p>Consistently use lotion and high-SPF sunblock to preserve the vibrancy of your tattoo.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">09</span>
+                <h3>Hands Off</h3>
+                <p>Do NOT scratch or pick your tattoo while it is scabbing or peeling. Let it heal naturally.</p>
+            </div>
+            <div class="care-step">
+                <span class="step-number">10</span>
+                <h3>Professional Advice</h3>
+                <p>Listen to your Tattoo Artist's professional advice, not your friends!</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Responsibility Warning -->
+    <section class="warning-section">
+        <div class="warning-content">
+            <p class="warning-text">
+                If you don't take good care of your tattoo, you will be responsible for that and you have to pay double
+                for touch up.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer Placeholder -->
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <img src="images/logo-new.png" alt="The Tattoo Culture" class="footer-logo-img">
+            </div>
+            <p class="footer-tagline">Luxury Tattoo Experiences Since 2012</p>
+
+            <div class="footer-social">
+                <a href="https://www.instagram.com/thetattooculture/?hl=en" class="footer-social-link" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                        <rect x="2" y="2" width="20" height="20" rx="5" />
+                        <circle cx="12" cy="12" r="4" />
+                        <circle cx="18" cy="6" r="1" fill="currentColor" />
+                    </svg>
+                    <span>Instagram</span>
+                </a>
+
+                <a href="https://wa.me/917600714691" class="footer-social-link" target="_blank">
+                    <svg viewBox="0 0 24 24" fill="currentColor">
+                        <path
+                            d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
+                    </svg>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+
+            <div class="footer-divider"></div>
+
+            <div class="footer-map">
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14689.293364891511!2d72.5155932!3d23.0118972!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e9bc2cf8e038f%3A0xd2f1077f8982a6f8!2sThe%20Tattoo%20Culture%20-%20Best%20Tattoo%20Studio%20in%20Ahmedabad!5e0!3m2!1sen!2sin!4v1770183520045!5m2!1sen!2sin"
+                        width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <p class="footer-copyright">&copy; 2026 The Tattoo Culture. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
