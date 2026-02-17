@@ -31,7 +31,7 @@ function loadNavbar() {
         <a href="#contact" class="nav-cta nav-cta-talk mobile-logo-btn">LET'S TALK!</a>
 
         <a href="index.html" class="nav-logo desktop-logo">
-            <img src="images/logo-new.png" alt="The Tattoo Culture" class="nav-logo-img">
+            <img src="images/logo-new.webp" alt="The Tattoo Culture" class="nav-logo-img">
         </a>
 
         <!-- Social Links in Nav -->
